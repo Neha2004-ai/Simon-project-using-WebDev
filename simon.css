@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;     
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 1.5rem; 
+    justify-content: center;
+}
+
+.btn {
+    border: 10px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+}
+
+.btn.red,
+.btn.yellow,
+.btn.green,
+.btn.blue {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.flash {
+    background-color: white !important;
+    box-shadow: 0 0 30px white;
+}
+
+.userflash {
+    box-shadow: 0 0 30px black;
+}
+
+.game-over {
+    background-color: #e74c3c !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: lab(48.48% -39.08 14.12);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.btn {
+  border: 10px solid black;
+  border-radius: 10%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  user-select: none;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.flash {
+  background-color:greenyellow !important;
+  box-shadow: 0 0 30px white;
+}
+
+.userflash {
+  box-shadow: 0 0 30px black;
+}
+
+.game-over {
+  background-color: #e74c3c !important;
+}
+
